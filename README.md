@@ -1,2 +1,2 @@
-# azure-arch-crash-course
-Azure AZ-300 Crash Course
+# Exam AZ-300: Microsoft Azure Architect Technologies Crash Course
+Welcome!
