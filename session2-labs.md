@@ -17,17 +17,22 @@
 * Cosmos DB
   * Consistency levels
   * Partitioning
+  *
 * Azure SQL Database
   * Elastic pools
+  *
 * Messaging platforms
   * Service Bus
     * Sessions
   * Event Grid
   * Event Hub
+  *
 * Service Fabric
   * App packaging
   * Reliable service
+
 * Autoscale
+
 * Azure File Sync setup
 
 ## Exam-Related Topics
