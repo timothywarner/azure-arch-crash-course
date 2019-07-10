@@ -29,5 +29,7 @@
 ## Exam-Related Topics
 
 * AZ-300 strategy
+  * Exam blueprint
+  * Cert study pyramid
   * Badge system
   * Creating study strategy

@@ -5,42 +5,47 @@
 * Deploy Linux and Windows VMs
   * Portal
   * Template
+
 * Configure networking
-  * VNet peering
+  * VNet peerings
   * Load balancer
   * Application Gateway
-  * ExpressRoute
-  * VPN P2s and S2S
-  * Routing/NVA/UDR
+  * Hybrid Cloud
+    * S2S and P2S VPNs
+    * ExpresRoute
+  * Routing
+    * UDR
+    * NVA
+
 * Migration
-  * Import Export service dataset/driveset csv
-  * ASR
+  * Import Export Service
+    * Journal and driveset CSV
   * Azure Migrate
+  * Azure Site Recovery
 
 ## Azure Security and Governance
 
-* Security and monitoring
-  * Azure AD / Resource RBAC
-  * Managed Service Identity
+* Security and identity
+  * RBAC
+    * Azure AD vs Azure resource roles
+    * Custom RBAC role
   * Subscription management
-  * Azure Monitor and alerting
-  * Azure AD Connect / staging mode / auth types
+    * Change directory
+  * Azure AD Connect
+    * Staging mode
+    * Sign-in options
 
 ## Azure App Service
 
 * Deploy Azure App Service Apps
-  * Web app
-  * WebJobs triggered vs continuous
-  * Function app consumption plan
+  * Web apps
+    * Network integration
+  * WebJobs
+    * Triggered
+    * Continuous
+  * Function apps
+    * Consumption plan
   * Container apps
-    * ACI/ACR/AKS
-  * Storage account types
-  * vnet integration
-  * hybrid connections
-  * ip restrictions
-
-## Exam-Related Topics
-
-* AZ-300 strategy
-  * Exam blueprint
-  * Cert study pyramid
+    * ACI
+    * ACR
+    * AKS
