@@ -5,10 +5,12 @@
 * Authentication
   * MFA
   * Managed identity
+  * Custom RBAC role
   * Service principals/app registrations/OAuth2
 * Data security
   * Azure SQL Database encryption
   * Confidential compute
+* Azure policy
 
 ## Cloud Development and Storage
 
@@ -19,6 +21,8 @@
   * Elastic pools
 * Messaging platforms
   * Event Grid, Relay, Event Hub, Service Bus
+  * service bus sessions
+  * service fabric app packaging, reliable service
 * Autoscale
 * Azure File Sync setup
 

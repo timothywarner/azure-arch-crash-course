@@ -10,7 +10,7 @@
   * Load balancer
   * Application Gateway
   * ExpressRoute
-  * VPN
+  * VPN P2s and S2S
   * Routing/NVA/UDR
 * Migration
   * Import Export service dataset/driveset csv
@@ -24,17 +24,20 @@
   * Managed Service Identity
   * Subscription management
   * Azure Monitor and alerting
-  * Azure AD Connect / staging mode
+  * Azure AD Connect / staging mode / auth types
 
 ## Azure App Service
 
 * Deploy Azure App Service Apps
   * Web app
-  * WebJobs
-  * Function app
+  * WebJobs triggered vs continuous
+  * Function app consumption plan
   * Container apps
     * ACI/ACR/AKS
   * Storage account types
+  * vnet integration
+  * hybrid connections
+  * ip restrictions
 
 ## Exam-Related Topics
 
