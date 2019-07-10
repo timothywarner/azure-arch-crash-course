@@ -20,6 +20,7 @@
 * Messaging platforms
   * Event Grid, Relay, Event Hub, Service Bus
 * Autoscale
+* Azure File Sync setup
 
 ## Exam-Related Topics
 

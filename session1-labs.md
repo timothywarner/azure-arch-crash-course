@@ -9,7 +9,11 @@
   * VNet peering
   * Load balancer
   * Application Gateway
+  * ExpressRoute
+  * VPN
+  * Routing/NVA/UDR
 * Migration
+  * Import Export service dataset/driveset csv
   * ASR
   * Azure Migrate
 
@@ -17,9 +21,10 @@
 
 * Security and monitoring
   * Azure AD / Resource RBAC
+  * Managed Service Identity
   * Subscription management
   * Azure Monitor and alerting
-  * Azure AD Connect
+  * Azure AD Connect / staging mode
 
 ## Azure App Service
 
@@ -29,6 +34,7 @@
   * Function app
   * Container apps
     * ACI/ACR/AKS
+  * Storage account types
 
 ## Exam-Related Topics
 
