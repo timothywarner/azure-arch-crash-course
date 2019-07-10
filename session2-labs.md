@@ -2,15 +2,15 @@
 
 ## Authentication and Data Security
 
-* Authentication
+* Authentication and Governance
   * MFA
+    * Conditional access policy
   * Managed identity
-  * Custom RBAC role
-  * Service principals/app registrations/OAuth2
+  * Service principals
 * Data security
   * Azure SQL Database encryption
   * Confidential compute
-* Azure policy
+* Azure Policy
 
 ## Cloud Development and Storage
 
@@ -20,9 +20,13 @@
 * Azure SQL Database
   * Elastic pools
 * Messaging platforms
-  * Event Grid, Relay, Event Hub, Service Bus
-  * service bus sessions
-  * service fabric app packaging, reliable service
+  * Service Bus
+    * Sessions
+  * Event Grid
+  * Event Hub
+* Service Fabric
+  * App packaging
+  * Reliable service
 * Autoscale
 * Azure File Sync setup
 
@@ -32,4 +36,4 @@
   * Exam blueprint
   * Cert study pyramid
   * Badge system
-  * Creating study strategy
+  * Create study strategy
