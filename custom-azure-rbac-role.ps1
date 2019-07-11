@@ -2,7 +2,9 @@
 
 Get-AzProviderOperation 'Microsoft.Support/*' | Format-Table -Property Operation, Description -AutoSize
 
-Get-AzRoleDefinition -Name 'Reader' | ConvertTo-Json | Out-File 'D:\ReaderSupportRole.json'
+Get-AzRoleDefinition -Name 'Reader' | ConvertTo-Json | Out-File 'C:\ReaderSupportRole.json'
+
+code C:\ReaderSupportRole.json
 
 Get-AzSubscription | Select-Object -Property id
 
@@ -12,6 +14,6 @@ Get-AzRoleDefinition | Where-Object -FilterScript { $_.IsCustom -eq $true } | Fo
 
 Get-AzRoleDefinition 'Help Desk Support' | Remove-AzRoleDefinition -Force
 
-Get-AzRoleDefinition | ? { $_.IsCustom -eq $true } | Remove-AzRoleDefinition -Force
+Get-AzRoleDefinition | Where-Object { $_.IsCustom -eq $true } | Remove-AzRoleDefinition -Force
 
 Remove-AzRoleDefinition -Id '22222222-2222-2222-2222-222222222222'
