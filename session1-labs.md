@@ -43,9 +43,4 @@
   * WebJobs
     * Triggered
     * Continuous
-  * Function apps
-    * Consumption plan
-  * Container apps
-    * ACI
-    * ACR
-    * AKS
+
