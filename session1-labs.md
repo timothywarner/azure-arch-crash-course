@@ -1,9 +1,17 @@
 # Session 1 Labs
 
+## Cloud Development and Storage
+
+* Storage accounts
+  * Account types
+  * Replication options
+* Cosmos DB
+  * Consistency levels
+  * Partitioning
+  * 
 ## VMs and Networking
 
 * Deploy Linux and Windows VMs
-  * Portal
   * Template
 
 * Configure networking
@@ -17,12 +25,6 @@
     * UDR
     * NVA
 
-* Migration
-  * Import Export Service
-    * Journal and driveset CSV
-  * Azure Migrate
-  * Azure Site Recovery
-
 ## Azure Security and Governance
 
 * Security and identity
@@ -31,16 +33,11 @@
     * Custom RBAC role
   * Subscription management
     * Change directory
-  * Azure AD Connect
-    * Staging mode
-    * Sign-in options
 
-## Azure App Service
 
-* Deploy Azure App Service Apps
-  * Web apps
-    * Network integration
-  * WebJobs
-    * Triggered
-    * Continuous
 
+* Migration
+  * Import Export Service
+    * Journal and driveset CSV
+  * Azure Migrate
+  * Azure Site Recovery

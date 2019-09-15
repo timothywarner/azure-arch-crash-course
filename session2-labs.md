@@ -1,5 +1,14 @@
 # Session 2 Labs
 
+## Azure App Service
+
+* Deploy Azure App Service Apps
+  * Web apps
+    * Network integration
+  * WebJobs
+    * Triggered
+    * Continuous
+    *
 ## Serverless and Containers
   * Function apps
     * Consumption plan
@@ -17,15 +26,11 @@
   * Azure SQL Database encryption
   * Confidential compute
 * Azure Policy
+  * Azure AD Connect
+    * Staging mode
+    * Sign-in options
 
-## Cloud Development and Storage
 
-* Storage accounts
-  * Account types
-  * Replication options
-* Cosmos DB
-  * Consistency levels
-  * Partitioning
 
 * Azure SQL Database
   * Elastic pools
