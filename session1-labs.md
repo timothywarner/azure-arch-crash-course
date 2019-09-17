@@ -5,10 +5,8 @@
 * Storage accounts
   * Account types
   * Replication options
-* Cosmos DB
-  * Consistency levels
-  * Partitioning
-  * 
+
+  *
 ## VMs and Networking
 
 * Deploy Linux and Windows VMs

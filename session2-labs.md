@@ -35,6 +35,10 @@
 * Azure SQL Database
   * Elastic pools
 
+* Cosmos DB
+  * Consistency levels
+  * Partitioning
+  * 
 * Messaging platforms
   * Service Bus
     * Sessions
