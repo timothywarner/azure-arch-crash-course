@@ -1,4 +1,4 @@
-# Exam AZ-300: Microsoft Azure Architect Technologies Crash Course
+# Exam AZ-300/AZ-300: Microsoft Azure Architect Crash Course
 
 Welcome! The short URL to this page is [http://timw.info/az300](http://timw.info/az300).
 
@@ -19,4 +19,3 @@ Welcome! The short URL to this page is [http://timw.info/az300](http://timw.info
 ```git
 git clone https://github.com/timothywarner/azure-arch-crash-course.git
 ```
-
