@@ -1,26 +1,35 @@
 # AZ-301 Session 1 Labs
 
-## Module 1
+## Module 1: Determine Workload Requirements
 
+* optimize resource consumption
+  * Tags
+  * Auditing (Activity log)
+  * Monitoring
+    * Mgmt Solutions (* Analytics bundles)
 
-Module 1: Determine Workload Requirements (45 minutes)
-•	Gather information and requirements
-•	Optimize resource consumption
-•	Design and auditing and monitoring strategy
+## Module 2: Design for Identity and Security
 
-Module 2: Design for Identity and Security (45 minutes)
-•	Design an identity management
-•	Design authentication
-•	Design authorization
-•	Design for risk prevention for identity
-•	Design a monitoring strategy for identity and security
+* Authentication
+  * SSO
+  * Hybrid cloud
+  * MFA
+* Authorization
+  * RBAC
+  * Policy
 
-(Break: 5 minutes)
+## Module 3: Design a Data Platform Solution
 
-Module 3: Design a Data Platform Solution (45 minutes)
-•	Design a data management strategy
-•	Design a data protection strategy
-•	Design and document data flows
-•	Design a monitoring strategy for the data platform
+* Data management
+  * Relational and non-relational databases
+  * DTU sizing
+  * Alerting based on query requests
+* Data protection
+  * Azure Disk Encryption
+  * Managed Storage Accounts / SSE
+  * Azure SQL Always Encrypted/TDE
 
+## Exam Prep Guidance
 
+* Item types
+* Practice test software/bundles
