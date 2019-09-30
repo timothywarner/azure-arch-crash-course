@@ -4,6 +4,7 @@
 
 * optimize resource consumption
   * Tags
+  * Policy
   * Auditing (Activity log)
   * Monitoring
     * Mgmt Solutions (* Analytics bundles)
