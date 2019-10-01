@@ -11,6 +11,7 @@
 ## Module 5: Design for Deployment, Migration, and Integration
 
 * Design deployments
+* Function apps (pricing plans, triggers)
 * Design migrations
   * Data import options
   * Database migration
