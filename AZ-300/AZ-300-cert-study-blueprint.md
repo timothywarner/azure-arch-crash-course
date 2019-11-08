@@ -32,6 +32,3 @@
 * [Pixel Robots](https://pixelrobots.co.uk/2018/09/study-resources-for-the-az-300/)
 * [Azure Greg](https://gregorsuttie.com/2018/10/02/azure-architect-design-az-300-exam/)
 * [Todd Adams](https://github.com/toddbadams/az300)
-
-
-
