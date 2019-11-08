@@ -13,22 +13,24 @@ Tim Warner
 
 DAY 1 of 2 (3 hours)
 
-Module 1: Deploy and Configure IaaS Solutions
+Module 1: Deploy and configure IaaS solutions
   * Design VNets
   * Deploy and configure VMs
   * Implement load balancing
   * Implement hybrid networking
 
-Module 2: Deploy and Configure PaaS Solutions
+Module 2: Deploy and configure PaaS solutions
   * Create web apps
   * Design serverless solutions
   * Design container solutions
 
 [5-min break]
 
-Module 3: Design Storage Solutions
+Module 3: Design storage solutions
   * Storage accounts
+    - Security features
   * Azure SQL Database
+    - Security features
   * Cosmos DB
 
 Synthesis
@@ -41,15 +43,16 @@ DAY 2 of 2 (3 hours)
 
 Module 4: Design Identity and Security
   * MFA
+    - Conditional access
   * Hybrid identity
+    - Authentication options
   * RBAC
-  * Storage security
-      - Always Encrypted
-      - Key Vault
 
 Module 5: Develop for the cloud
   * Migration
+    * Server, database, application
   * Autoscaling
+    - App service, VMSS
   * Message-based architecture
   * Event-based architecture
 
