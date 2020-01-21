@@ -1,61 +1,54 @@
 # Session 2 Labs
 
-## Azure App Service
+## Implement workloads and security
 
-* Deploy Azure App Service Apps
-  * Web apps
-    * Network integration
-  * WebJobs
-    * Triggered
-    * Continuous
-    *
-## Serverless and Containers
+* Migrate servers to Azure
+  * Azure Migrate
+
+* Serverless computing
+  * Logic apps
   * Function apps
-    * Consumption plan
-  * Container apps
-    * ACI
-    * ACR
-    * AKS
-
-## Authentication and Data Security
-
-* Authentication and Governance
-  * MFA
-    * Conditional access policy
-* Data security
-  * Azure SQL Database encryption
-  * Confidential compute
-* Azure Policy
-  * Azure AD Connect
-    * Staging mode
-    * Sign-in options
-
-
-
-* Azure SQL Database
-  * Elastic pools
-
-* Cosmos DB
-  * Consistency levels
-  * Partitioning
-  * 
-* Messaging platforms
   * Service Bus
-    * Sessions
   * Event Grid
-  * Event Hub
+  * Message-based architecture
 
-* Service Fabric
-  * App packaging
-  * Reliable service
+* RBAC
+  * Assign RBAC roles
+  * Custom roles
+  * Azure AD PIM
 
-* Azure File Sync
-  * General setup
+## Create and deploy apps
 
-## Exam-Related Topics
+* PaaS Web apps
+  * App Service web apps (w/containers)
+  * API Management
+  * WebJobs
+  * Message-based architectures
+    * Event Grid
+    * Event Hub
+    * Service Bus
 
-* AZ-300 strategy
-  * Exam blueprint
-  * Cert study pyramid
-  * Badge system
-  * Create study strategy
+* Containers
+  * Create image from DOCKERFILE
+  * Publish to ACR
+  * ACI
+  * AKS
+
+## Implement secure data
+
+* Confidential Compute
+* Key Vault
+* Cosmos DB
+* Azure SQL Database
+  * Managed instance
+  * Always Encrypted
+
+## Develop for the cloud and Azure storage
+
+* Autoscaling
+  * App service
+  * VMSS
+
+## AZ-300 strategy
+  * Exam discounts
+  * Badge sharing process
