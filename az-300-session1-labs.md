@@ -4,7 +4,7 @@
 
 * Resource utilization and consumption
   * Monitor spend
-  * Configure diagnostics
+  * Configure diagnostics (portal.loganalytics.io/demo)
   * Alerts
   * Log Analytics
 
@@ -15,6 +15,7 @@
   * failover
 
 * Windows and Linux VMs
+  * managed identity
   * high availability
   * dedicated host
   * ADE
