@@ -1,4 +1,4 @@
-# Exam AZ-300/303: Microsoft Azure Architect Crash Course
+# Exam AZ-300/303: Microsoft Azure Architect Technologies Crash Course
 
 Welcome! The short URL to this page is [http://timw.info/az300](http://timw.info/az300).
 
