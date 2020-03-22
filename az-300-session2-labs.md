@@ -1,16 +1,9 @@
-# Session 2 Labs
+# AZ-300/303 Session 2 Labs
 
 ## Implement workloads and security
 
 * Migrate servers to Azure
-  * Azure Migrate
-
-* Serverless computing
-  * Logic apps
-  * Function apps
-  * Service Bus
-  * Event Grid
-  * Message-based architecture
+  * Azure Migrate (contrast with ASR)
 
 * RBAC
   * Assign RBAC roles
@@ -20,35 +13,46 @@
 ## Create and deploy apps
 
 * PaaS Web apps
-  * App Service web apps (w/containers)
-  * API Management
+  * App Service web apps
+    + Autoscaling
+    + VMSS
   * WebJobs
-  * Message-based architectures
-    * Event Grid
-    * Event Hub
-    * Service Bus
+  * Network integration
 
 * Containers
   * Create image from DOCKERFILE
   * Publish to ACR
   * ACI
   * AKS
+  * App Service for Containers
+
+* Serverless architectures
+  * App Service
+  * API Management
+  * Function apps
+  * Logic apps
+  * Service Bus
+  * Event Grid
 
 ## Implement secure data
 
-* Confidential Compute
-* Key Vault
-* Cosmos DB
-* Azure SQL Database
+  * Confidential Compute
+  * Key Vault
+  * Databases
+  * * Azure SQL Database
   * Managed instance
   * Always Encrypted
-
-## Develop for the cloud and Azure storage
-
-* Autoscaling
-  * App service
-  * VMSS
+  * Cosmos DB
+*
+* Serverless architectures
+  * App Service
+  * API Management
+  * Function apps
+  * Logic apps
+  * Service Bus
+  * Event Grid
 
 ## AZ-300 strategy
-  * Exam discounts
-  * Badge sharing process
+  * Exam preparation
+    + Practice exams/discount
+  * Online proctored exam delivery

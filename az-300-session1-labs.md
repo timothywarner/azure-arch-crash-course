@@ -1,49 +1,58 @@
-# AZ-300 Session 1 Labs
+# AZ-300/303 Session 1 Labs
 
 ## Deploy and configure infrastructure
 
-* Resource utilization and consumption
-  * Monitor spend
-  * Configure diagnostics (portal.loganalytics.io/demo)
-  * Alerts
-  * Log Analytics
+* Storage
+  - replication
+  - Authorization
+    + RBAC
+  -Network access
+    + Service endpoints
+    + Private endpoints
+  - VM disks
+    + ADE
 
-* Storage accounts
-  * network access
-  * SAS tokens/keys
-  * replication
-  * failover
+* Virtual networks
+  - Deployment
+    + TCP/IP addressing (private and public)
+  - Security
+    + NSG
+    + ASG
+    + Azure Firewall
+  - Connectivity
+    + Peering
+    + VPN
+  - Load balancing
+    + Load balancer
+    + Application Gateway
+    + Traffic Manager
+    + Front Door
 
-* Windows and Linux VMs
-  * managed identity
-  * high availability
-  * dedicated host
-  * ADE
-  * Backup
-  * scale sets
-  * Modify ARM templates
-  * Save deployments
+* Deploy Windows and Linux VMs
+  - Deployment
+    + Portal (high availability)
+    + Template
+    + Dedicated host/reserved instance
+  - Configuration
+    + Extensions (template reference)
+    + Managed identity
+    + Backup
 
-* VNets
-  * peerings vs VPN
-  * TCP/IP addressing (private and public)
-  * NSGs
-  * Application gateway
-  * Traffic Manager
-  * Front Door
-  * Virtual WAN
+* Monitoring
+  - Diagnostics
+    + Azure Monitor
+    + Alerts
+    + Azure Log Analytics
+  - Monitor spend
+    + Cost Management
 
-* Azure AD
-  * Custom domains
-  * MFA
-  * Azure AD IDP
-  * Conditional access
+* Identity
+  - Azure AD
+    + Custom domains
+    + MFA (Conditional Access; IdP)
+  - Hybrid identity
+    + Azure AD Connect
+    + Troubleshooting/monitoring
 
-* Hybrid identity
-  * Azure AD Connect
-  * Federation
-  * Troubleshooting/monitoring
-
-## AZ-300 Strategy
-  * Item types
-
+## AZ-300/303 Strategy
+  - Item types
