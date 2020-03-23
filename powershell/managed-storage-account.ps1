@@ -1,7 +1,7 @@
 
 $resourceGroupName = 'OReilly'
 $storageAccountName = 'oreillygpstorage7044'
-$storageAccountKey = 'fZddlyGjrc51p3WdtZzz4NKTOHqHohVKnkvLBdkfqQByoQIHCEINRhQXT1ueTzT1FZmaC324WzSJyn5CA62wKA=='
+$storageAccountKey = ''
 $keyVaultName = 'oreilly-key-vault001'
 $keyVaultSpAppId = 'cfa8b339-82a2-471a-a3c9-0fc0be7a4093'
 
