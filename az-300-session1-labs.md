@@ -2,6 +2,72 @@
 
 ## Deploy and configure infrastructure
 
+### Networking layer
+
+* Create two VNets, hub and spoke
+  * Peering
+* Create load balancer in hub
+* Create Traffic Manager
+* Create service endpoint
+
+### Storage layer
+
+* Create storage account / endpoint
+* Capture VM and create VHD image
+
+### Compute layer
+
+* Deploy VMs in hub and spoke [template]
+* Deploy Azure Firewall and Bastion
+* Configure Azure AD auth and RBAC
+
+### Security
+
+* Define and associate NSGs
+* Define route tables
+* Azure Security Center / JIT VM Access
+
+### Monitoring
+
+* Alerts
+* Log Analytics
+
+### Identity
+
+* New user
+* Conditional Access
+* RBAC (VM Admin?)
+* Azure AD Connect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================================
+
+
+
 * Storage
   - replication
   - Authorization
