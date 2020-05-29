@@ -1,5 +1,68 @@
 # AZ-300/303 Session 2 Labs
 
+## Identity workflow
+
+* App service
+
+## Integration workflow
+
+* Event Hub
+
+## Migration
+
+## Certification
+
+* MS Online Testing
+* Hands-on
+* Practice exams
+* Badging
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Identity and RBAC
+
+* Create user
+* MFA enrollment / conditional access
+* app access panel
+* VM administrator
+* App Service access
+* Policy / tax tags
+* PIM
+
 ## Implement workloads and security
 
 * Migrate servers to Azure
