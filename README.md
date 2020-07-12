@@ -6,7 +6,7 @@ Welcome! The short URL to this page is [http://timw.info/az300](http://timw.info
 
 ## Tim Warner's contact information
 
-* Email: [tim@techtrainertim.com](mailto://tim@techtrainertim.com)
+* Email: [tim@timw.info](mailto://timw.info)
 * Twitter: [@TechTrainerTim](https://twitter.com/techtrainertim)
 * [Pluralsight author page](https://www.pluralsight.com/authors/tim-warner)
 * Web: [TechTrainerTim.com](https://techtrainertim.com/)
