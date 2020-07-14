@@ -1,0 +1,57 @@
+# Create registry
+az acr create --resource-group myResourceGroup \
+  --name myContainerRegistry007 --sku Basic
+
+# Sign into registry
+az acr login --name <registry-name>
+
+
+# Push image to registry
+docker pull hello-world
+
+docker tag hello-world <login-server>/hello-world:v1
+
+docker push <login-server>/hello-world:v1
+
+# List images
+az acr repository list --name <registry-name> --output table
+
+# Run image from registry
+docker run <login-server>/hello-world:v1
+
+
+# ACR tasks (Ref: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-multistep-task)
+
+# Build a container image
+az acr build --registry $ACR_NAME --image helloacrtasks:v1 .
+
+# Multi-step process (build, run, push image)
+
+# YML
+version: v1.0.0
+steps:
+# Build target image
+- build: -t {{.Run.Registry}}/hello-world:{{.Run.ID}} -f Dockerfile .
+# Run image
+- cmd: -t {{.Run.Registry}}/hello-world:{{.Run.ID}}
+  id: test
+  detach: true
+  ports: ["8080:80"]
+- cmd: docker stop test
+# Push image
+- push:
+  - {{.Run.Registry}}/hello-world:{{.Run.ID}}
+
+# Create task that triggers on code commit
+az acr task create \
+    --registry $ACR_NAME \
+    --name example1 \
+    --context https://github.com/$GIT_USER/acr-build-helloworld-node.git \
+    --file taskmulti.yaml \
+    --git-access-token $GIT_PAT
+
+# Run task
+az acr task run --registry $ACR_NAME --name example1
+
+
+
