@@ -18,6 +18,7 @@
 ### Virtual machines
 
   * Dedicated host
+    * Reservations
   * High availability
     * Availability zones/sets
     * Scale sets
@@ -49,8 +50,11 @@
 ### Monitoring
 
   * Monitor health, availability, performance
+    * Scopes
+      * Azure Status
+      * Azure Service Health
+      * Azure Resource Health
     * Azure Monitor
       * Insights
-    * Service Health / Resource Health
     * Log Analytics (no queries)
     * Alerts and Action Groups
