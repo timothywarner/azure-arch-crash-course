@@ -1,5 +1,10 @@
 # AZ-300/303 Session 2 Labs
 
+## Sweep Up the Shavings
+
+  * SSPR
+  * MFA
+
 ## Implement Management and Security Solutions
 
 ### Workload migration and management
